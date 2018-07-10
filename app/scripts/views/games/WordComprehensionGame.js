@@ -47,8 +47,8 @@ LSCP.View.WordComprehensionGame = LSCP.View.Game.extend({
       sounds.push(['object_' + object, {
         urls: [LSCP.Locations.GameObjectSoundSprites + object + '.mp3'],
         sprite: {
-          ask:   [0, 2000],
-          intro: [3000, 2000]
+          ask:   [0, 7000], //formerly [0, 2000]
+          intro: [4000, 2000] // formerly 2000
         }
       }]);
     });

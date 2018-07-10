@@ -52,3 +52,11 @@ Error: Bower components directory does not exist at app/bower_components
 Run `gulp build`, which prepares the app for release and creates a zip archive (`app.zip`, in the project directory), then manually upload this archive to PhoneGap Build to package the app.
 
 See [PhoneGap Build documentation](http://docs.build.phonegap.com) for more information.
+
+
+##current possible issues 29/30/2018
+bower@1.8.4: We don't recommend using Bower for new projects. Please consider Yarn and Webpack or Parcel. You can read how to migrate legacy project here: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+/usr/local/bin/bower -> /usr/local/lib/node_modules/bower/bin/bower
+/usr/local/lib
+
+
